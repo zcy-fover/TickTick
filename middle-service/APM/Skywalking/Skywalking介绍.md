@@ -79,6 +79,6 @@
 > > - **应用性能管理工具 PinPoint**：https://link.jianshu.com/?t=https://github.com/naver/pinpoint
 > > - **Apache HTrace**：https://link.jianshu.com/?t=http://htrace.incubator.apache.org/
 
-<p align="center">
-  <img src="https://note.youdao.com/yws/api/personal/file/WEB633d07639647f24247abdb3665a3c7e6?method=download&shareKey=8a4f08fc16006b4470c8285ed50fdcd0" width="200px"/><br />15207189058@163.com
-</p>
+<div style="text-align:center;margin-top:50px;margin-bottom:50px;">
+    <img src="https://note.youdao.com/yws/api/personal/file/C2C6FCFDC10942B6A3532E6F0928E455?method=download&shareKey=c554dacfc5193c29d4b35682aa1226d9" />
+</div>

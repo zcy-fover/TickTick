@@ -18,8 +18,8 @@
 - apm-network/target/generated-sources/protobuf 下的`grpc-java`和`java`;
 > ![GRPC设置](https://note.youdao.com/yws/api/personal/file/69097195DFDA4470BED95B98B7577091?method=download&shareKey=04343bdaab809a02dd32244f5f64c109)
 > - apm-collector/apm-collector-remote/collector-remote-grpc-provider/target/generated-sources/protobuf 下的`grpc-java`和`java`;
->   ![gRPC设置](https://note.youdao.com/yws/api/personal/file/0B361E94E06447ABBBDF3555DE653F91?method=download&shareKey=326d795355d6d6b49240a3a980783749)
->   设置方法：在 grpc-java 上右键-> Mark Directory as -> Generated Souces Root
+> ![gRPC设置](https://note.youdao.com/yws/api/personal/file/0B361E94E06447ABBBDF3555DE653F91?method=download&shareKey=326d795355d6d6b49240a3a980783749)
+> 设置方法：在 grpc-java 上右键-> Mark Directory as -> Generated Souces Root
 >
 > ![代码生成](https://note.youdao.com/yws/api/personal/file/30E1435B92304D458B3ABB339CD7A802?method=download&shareKey=97fa68bf2d2359a8b692b60f6ea5a148)
 3. ###### 运行`org.skywalking.apm.collector.boot.CollectorBootStartUp`的`main(args)`方法，启动 Collector；
@@ -42,6 +42,6 @@
 6. 此时停掉之前启动的 skywalking-collector，重新运行`mvn clean compile install -Dmaven.test.skip=true`进行编译；
 7. 编译完成后再启动 skywalking-collector，然后启动自己的Web项目，如果程序进入了之前的`org.skywalking.apm.agent.SkyWalkingAgent`的`premain()`方法中的断点，并且 Web 项目启动成功则说明 Agent 模块启动成功。
 
-<p align="center">
-  <img src="https://note.youdao.com/yws/api/personal/file/WEB633d07639647f24247abdb3665a3c7e6?method=download&shareKey=8a4f08fc16006b4470c8285ed50fdcd0" width="200px"/><br />15207189058@163.com
-</p>
+<div style="text-align:center;margin-top:50px;margin-bottom:50px;">
+    <img src="https://note.youdao.com/yws/api/personal/file/C2C6FCFDC10942B6A3532E6F0928E455?method=download&shareKey=c554dacfc5193c29d4b35682aa1226d9" />
+</div>

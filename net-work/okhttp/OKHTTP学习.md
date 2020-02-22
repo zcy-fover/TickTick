@@ -30,7 +30,7 @@
 >   > - QUIK (Quick UDP Internet Connection)
 > - ##### 创建
 >
->   >
+>   > 
 >
 > - ##### put新连接
 >
@@ -79,5 +79,9 @@
 >   >   > - 当```inUseConnectionCount > 0```返回keepAlive的最大时间
 >   >   > - 当前无连接不需要清理
 >   > - 如何判断连接是否在用
->   >
+>   >    
 >   >    >- 主要检查```Reference```的```StreamAllocation```是否为空，为空则说明有连接泄漏，程序有异常，不为空则返回```Reference```的列表size
+
+<div style="text-align:center;margin-top:50px;margin-bottom:50px;">
+    <img src="https://note.youdao.com/yws/api/personal/file/C2C6FCFDC10942B6A3532E6F0928E455?method=download&shareKey=c554dacfc5193c29d4b35682aa1226d9" />
+</div>
